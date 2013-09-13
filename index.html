@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Export Contacts</title>
+		<meta charset="utf8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="jquery.mobile-1.4.0-alpha.2.min.css">
+	    <link rel="stylesheet" href="jquery.mobile.theme-1.4.0-alpha.2.min.css">
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery.mobile-1.4.0-alpha.2.min.js"></script>
+
+	   
+	</head>
+	<body>
+		
+		<div id="mainpage" data-role="page">
+
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>Contact Exporter</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">
+				<ol id="list" data-role="listview" data-autodividers="true" data-inset="true"></ol>
+			</div><!-- /content -->
+
+			<div data-role="footer" data-position="fixed" class="ui-bar">
+				<a href="#" id="save-to-sdcard">Save To SD Card</a>
+			
+			</div><!-- /footer -->
+		</div><!-- /page -->
+					
+		
+		
+		<script src="vcard.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

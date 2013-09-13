@@ -1,0 +1,29 @@
+{
+  "name": "Export Contacts",
+  "type": "privileged",
+  "description": "An app to export contacts to vCard",
+  "launch_path": "/index.html",
+  "permissions": {
+      "desktop-notification": {
+          "description" : "To show notifications"
+      },
+	  "contacts": {
+		  "description": "Needed to access the contacts",
+		  "access": "readonly"
+	  },
+	  "device-storage:sdcard": {
+		  "description": "needed to write contacts to vCard file on SD Card",
+		  "access": "readwrite"
+	  }
+	  
+  },
+  "icons": {
+    "128": "/icons/logo_128.png",
+    "60": "/icons/logo_60.png"
+  },
+  "developer": {
+    "name": "Andre Garzia",
+    "url": "http://andregarzia.com"
+  },
+  "default_locale": "en"
+}
