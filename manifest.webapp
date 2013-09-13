@@ -4,9 +4,6 @@
   "description": "An app to export contacts to vCard",
   "launch_path": "/index.html",
   "permissions": {
-      "desktop-notification": {
-          "description" : "To show notifications"
-      },
 	  "contacts": {
 		  "description": "Needed to access the contacts",
 		  "access": "readonly"
