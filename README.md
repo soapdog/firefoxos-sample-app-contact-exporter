@@ -11,6 +11,6 @@ A sample app for Firefox OS that exports contacts to a vCard file on SD.
 
 # Other Frameworks
 
-This application uses jQuery Mobile to build its interface.
+This application uses [jQuery Mobile](http://www.jquerymobile.com/) to build its interface.
 
 A minimal mozContact to vCard library is included in vCard.js
